@@ -7,12 +7,9 @@ class DisplayForm extends Component {
   constructor(props) {
     super(props);
     const defaultData = [
-      { label: "Name", value: "John Doe", type: "textinput" },
-      { label: "Address", value: "123 Main Street", type: "textinput" },
-      { label: "City", value: "Anytown", type: "textinput" },
-      { label: "State", value: ["TX"], type: "dropdown" },
-      { label: "ZipCode", value: "12345", type: "textinput" },
-      { label: "Country", value: ["United States"], type: "dropdown" }
+      { label: "Item", value: "Milk", type: "textinput" },
+      { label: "Qty", value: "1", type: "textinput" },
+      { label: "Amt", value: "Gallon", type: "textinput" }
     ];
     this.state = {
       data: props.data || defaultData,
