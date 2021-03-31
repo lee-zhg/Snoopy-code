@@ -23,22 +23,13 @@ const Fade20 = () => (
 );
 
 class UIShell extends Component {
-  header = "Garage for Cloud Catalyst";
-  menuTitle = "12 Design Pattern";
+  header = "Snoopy Services";
+  menuTitle = "Grocery List";
   menuItems = [
     "Display Form",
     "Validating Form",
     "Update Form",
-    "Validating Form Wizard 1",
-    "Validating Form Wizard 2",
-    "Simple List",
-    "Table List",
-    "List to List",
-    "Linked List",
-    "Master Detail",
-    "Create, Read, Update, Delete",
-    "Search List",
-    "Search Form"
+    "Grocery List"
   ];
 
   constructor(props) {
