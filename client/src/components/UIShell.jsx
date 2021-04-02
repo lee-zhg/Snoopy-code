@@ -26,9 +26,6 @@ class UIShell extends Component {
   header = "Snoopy Services";
   menuTitle = "Grocery List";
   menuItems = [
-    "Display Form",
-    "Validating Form",
-    "Update Form",
     "Grocery List"
   ];
 
